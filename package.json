@@ -1,6 +1,6 @@
 {
   "name": "dsh-hide-brand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hide the DeepSeek Harness brand row in the DSH sidebar",
   "license": "MIT",
   "type": "module",
