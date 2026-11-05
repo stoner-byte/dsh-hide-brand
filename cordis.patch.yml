@@ -1,0 +1,10 @@
+# dsh-hide-brand —— DSH bundle patch
+#
+# 把本插件插入 profile 的配置树。DSH 启动时按 bundle 层栈叠加各插件 patch。
+#
+# 安装：把本目录放进 profile 的 node_modules，并加入 package.json 的
+#       dsh.profile.bundles 列表；桌面版不能用 dsh plugin --profile desktop。
+
+- insert:
+    - id: dsh-hide-brand
+      name: dsh-hide-brand
